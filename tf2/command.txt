@@ -1,0 +1,147 @@
+
+
+port-add 1/- 100G-R2 RS
+port-add 2/- 100G-R2 RS
+port-add 3/0 100G RS
+port-add 3/4 100G-R2 RS
+port-add 3/6 100G-R2 RS
+port-add 4/0 100G RS
+port-add 4/4 100G-R2 RS
+port-add 4/6 100G-R2 RS
+port-add 5/0 100G RS
+port-add 5/4 100G-R2 RS
+port-add 5/6 100G-R2 RS
+port-add 6/0 100G RS
+port-add 6/4 100G-R2 RS
+port-add 6/6 100G-R2 RS
+port-add 7/0 100G RS
+port-add 7/4 100G-R2 RS
+port-add 7/6 100G-R2 RS
+port-add 8/0 100G RS
+port-add 8/4 100G-R2 RS
+port-add 8/6 100G-R2 RS
+
+port-add 9/- 100G-R2 RS
+port-add 10/- 100G-R2 RS
+port-add 11/0 100G RS
+port-add 11/4 100G-R2 RS
+port-add 11/6 100G-R2 RS
+port-add 12/0 100G RS
+port-add 12/4 100G-R2 RS
+port-add 12/6 100G-R2 RS
+port-add 13/0 100G RS
+port-add 13/4 100G-R2 RS
+port-add 13/6 100G-R2 RS
+port-add 14/0 100G RS
+port-add 14/4 100G-R2 RS
+port-add 14/6 100G-R2 RS
+port-add 15/0 100G RS
+port-add 15/4 100G-R2 RS
+port-add 15/6 100G-R2 RS
+port-add 16/0 100G RS
+port-add 16/4 100G-R2 RS
+port-add 16/6 100G-R2 RS
+
+port-add 17/- 100G-R2 RS
+port-add 18/- 100G-R2 RS
+port-add 19/0 100G RS
+port-add 19/4 100G-R2 RS
+port-add 19/6 100G-R2 RS
+port-add 20/0 100G RS
+port-add 20/4 100G-R2 RS
+port-add 20/6 100G-R2 RS
+port-add 21/0 100G RS
+port-add 21/4 100G-R2 RS
+port-add 21/6 100G-R2 RS
+port-add 22/0 100G RS
+port-add 22/4 100G-R2 RS
+port-add 22/6 100G-R2 RS
+port-add 23/0 100G RS
+port-add 23/4 100G-R2 RS
+port-add 23/6 100G-R2 RS
+port-add 24/0 100G RS
+port-add 24/4 100G-R2 RS
+port-add 24/6 100G-R2 RS
+
+port-add 25/- 100G-R2 RS
+port-add 26/- 100G-R2 RS
+port-add 27/- 100G-R2 RS
+port-add 28/0 100G RS
+port-add 28/4 100G-R2 RS
+port-add 28/6 100G-R2 RS
+port-add 29/0 100G RS
+port-add 29/4 100G-R2 RS
+port-add 29/6 100G-R2 RS
+port-add 30/0 100G RS
+port-add 30/4 100G-R2 RS
+port-add 30/6 100G-R2 RS
+port-add 31/0 100G RS
+port-add 31/4 100G-R2 RS
+port-add 31/6 100G-R2 RS
+port-add 32/0 100G RS
+port-add 32/4 100G-R2 RS
+port-add 32/6 100G-R2 RS
+
+port-loopback 2/- mac-near
+port-loopback 3/4 mac-near
+port-loopback 3/6 mac-near
+port-loopback 4/4 mac-near
+port-loopback 4/6 mac-near
+port-loopback 5/4 mac-near
+port-loopback 5/6 mac-near
+port-loopback 6/4 mac-near
+port-loopback 6/6 mac-near
+port-loopback 7/4 mac-near
+port-loopback 7/6 mac-near
+port-loopback 8/4 mac-near
+port-loopback 8/6 mac-near
+
+port-loopback 10/- mac-near
+port-loopback 11/4 mac-near
+port-loopback 11/6 mac-near
+port-loopback 12/4 mac-near
+port-loopback 12/6 mac-near
+port-loopback 13/4 mac-near
+port-loopback 13/6 mac-near
+port-loopback 14/4 mac-near
+port-loopback 14/6 mac-near
+port-loopback 15/4 mac-near
+port-loopback 15/6 mac-near
+port-loopback 16/4 mac-near
+port-loopback 16/6 mac-near
+
+port-loopback 18/- mac-near
+port-loopback 19/4 mac-near
+port-loopback 19/6 mac-near
+port-loopback 20/4 mac-near
+port-loopback 20/6 mac-near
+port-loopback 21/4 mac-near
+port-loopback 21/6 mac-near
+port-loopback 22/4 mac-near
+port-loopback 22/6 mac-near
+port-loopback 23/4 mac-near
+port-loopback 23/6 mac-near
+port-loopback 24/4 mac-near
+port-loopback 24/6 mac-near
+
+port-loopback 26/- mac-near
+port-loopback 27/- mac-near
+port-loopback 28/4 mac-near
+port-loopback 28/6 mac-near
+port-loopback 29/4 mac-near
+port-loopback 29/6 mac-near
+port-loopback 30/4 mac-near
+port-loopback 30/6 mac-near
+port-loopback 31/4 mac-near
+port-loopback 31/6 mac-near
+port-loopback 32/4 mac-near
+port-loopback 32/6 mac-near
+
+port-enb -/-
+rate-period 10
+rate-show
+
+
+
+
+

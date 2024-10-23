@@ -1,0 +1,20 @@
+
+
+port-add -/- 100G RS
+port-loopback -/- mac-near
+
+port-loopback 32/0 clear
+port-loopback 31/0 clear
+port-loopback 30/0 clear
+port-loopback 8/0 clear
+port-loopback 7/0 clear
+port-loopback 24/0 clear
+port-loopback 23/0 clear
+port-loopback 22/0 clear
+port-loopback 16/0 clear
+port-loopback 15/0 clear
+
+port-enb -/-
+rate-period 10
+rate-show
+
